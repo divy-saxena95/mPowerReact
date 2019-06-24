@@ -51,7 +51,7 @@ class App extends Component {
           <Typography variant="body1" style={{ paddingTop: 31, paddingBottom: 22 }}>
             Forgot Password?
           </Typography>
-          <Button color='primary' variant='contained' rootClass={classes.button} style={{ width: 225 }} />
+          <Button title="Log In" color='primary' variant='contained' rootClass={classes.button} size="large" />
         </PageTemplate>
       </MuiThemeProvider>
     )

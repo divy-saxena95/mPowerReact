@@ -49,7 +49,7 @@ module.exports = {
     "es6",
     "node"
   ],
-  "setupFiles": ["./src/setupTests.js"],
+  "setupFiles": ["./config/setupTests.js"],
   "snapshotSerializers": ["enzyme-to-json/serializer"],
   "clearMocks": true,
 };
